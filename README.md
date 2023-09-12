@@ -9,6 +9,8 @@ Run the following commands:
 yarn
 yarn start
 ```
+Then, open http://localhost:5873 to check if it's running.
+
 In another terminal, run the following to log in to the local verdaccio server:
 
 ```bash
