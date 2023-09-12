@@ -23,3 +23,7 @@ To delete all locally published packages, run the following:
 yarn clean
 ```
 
+You can now publish packages to this local repo. For TensorFlow.js specifically, the following command when run in the base of the tfjs repo will publish to this Verdaccio server.
+```bash
+yarn publish-npm --no-otp --registry http://127.0.0.1:5873
+```
